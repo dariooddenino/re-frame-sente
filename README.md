@@ -3,6 +3,9 @@
 A basic [re-frame](https://github.com/Day8/re-frame)
 and [sente](https://github.com/ptaoussanis/sente) web app.
 
+Heavinly insipred by the [om-sente](https://github.com/seancorfield/om-sente)
+example.
+
 ## Development Mode
 
 ### Run application:
