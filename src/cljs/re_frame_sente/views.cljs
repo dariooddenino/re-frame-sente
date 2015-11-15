@@ -19,7 +19,7 @@
 (defn main-panel []
   (let [name (re-frame/subscribe [:name])]
     (reagent/create-class
-     {:component-will-mount (socket/event-loop)
+     {:component-will-mount socket/event-loop
       :reagent-render (fn []
                         [:div
                          [:div "Hello from " @name]
